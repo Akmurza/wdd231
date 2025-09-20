@@ -34,8 +34,9 @@ header {
 }
 
 .logo {
-    flex-shrink: 0;
-}
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;}
 
 #author-name {
     font-size: 1.2rem;
