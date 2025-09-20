@@ -18,7 +18,7 @@ const courses = [
         title: 'Web Fundamentals',
         credits: 2,
         certificate: 'Web and Computer Programming',
-        description: 'This course introduces students to the World Wide Web and to careers in web site design and development. The course is hands-on with students actually participating in simple web designs and programming. It is anticipated that students who complete this course will understand the fields of web design and development and will have a good idea if they want to pursue this degree as a major.',
+        description: 'This course introduces students to careers in web site design and development. The course is hands- on with students actually participating in simple web designs and programming.It is anticipated that students who complete this course will understand the fields of web design and development and will have a good idea if they want to pursue this degree as a major.',
         technology: [
             'HTML',
             'CSS'
@@ -74,7 +74,7 @@ function displayCourses(coursesToShow) {
 
     coursesToShow.forEach(course => {
         const courseCard = document.createElement('div');
-        courseCard.className = course - card ${ course.completed ? 'completed' : '' };
+        courseCard.className = `course - card ${ course.completed ? 'completed' : '' };`
         courseCard.innerHTML = 
                     `<h3>${course.subject} ${course.number}</h3>
                     <p><strong>${course.title}</strong></p>
