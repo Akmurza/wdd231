@@ -101,7 +101,7 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    color: white;
+    color: black;
     margin-bottom: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -207,6 +207,16 @@ h1 {
     padding: 1rem;
     background: rgba(102, 126, 234, 0.1);
     border-radius: 10px;
+}
+#credits-number{
+    text-align: center;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: black;
+        margin-top: 1rem;
+        padding: 1rem;
+        background: rgba(102, 126, 234, 0.1);
+        border-radius: 10px;
 }
 
 /* Footer */
