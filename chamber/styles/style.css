@@ -1,4 +1,4 @@
-
+/* Directory Members */
 #members-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -20,8 +20,6 @@
     margin-bottom: 1rem;
 }
 
-
-
 .member-card h2 {
     margin: 0.5rem 0;
     color: #2c3e50;
@@ -35,29 +33,28 @@
     font-weight: bold;
 }
 
-
-
-
-
 .member-card .membership {
-            margin-top: 0.5rem;
-            font-style: italic;
-            color: #555;
-        }
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+
+#members-container.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
 
 
 #members-container.list-view {
-    display: block;
-}
-
-#members-container.list-view .member-card {
     display: flex;
-    align-items: center;
-    text-align: left;
-    gap: 1rem;
-}
-
-#members-container.list-view .member-card img {
-    max-width: 100px;
-    margin: 0;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 0 1rem;
 }
