@@ -1,0 +1,63 @@
+
+#members-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.member-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.member-card img {
+    width: 100%;
+    max-width: 180px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+
+
+.member-card h2 {
+    margin: 0.5rem 0;
+    color: #2c3e50;
+}
+
+.member-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #667eea;
+    font-weight: bold;
+}
+
+
+
+
+
+.member-card .membership {
+            margin-top: 0.5rem;
+            font-style: italic;
+            color: #555;
+        }
+
+
+#members-container.list-view {
+    display: block;
+}
+
+#members-container.list-view .member-card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 1rem;
+}
+
+#members-container.list-view .member-card img {
+    max-width: 100px;
+    margin: 0;
+}

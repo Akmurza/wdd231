@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Tbilisi Cafe",
+        "address": "12 Rustaveli Ave, Tbilisi",
+        "phone": "+995 33 123 333",
+        "website": "https://tbilisicafe.com",
+        "image": "cafe.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Georgian Tech Sol",
+        "address": "45 Chavchavadze St, Tbilisi",
+        "phone": "+995 01 234 567",
+        "website": "https://georgiantech.ge",
+        "image": "tech.jpg",
+        "membership": 20
+    },
+    {
+        "name": "Tbilisi Wine company",
+        "address": "5 Freedom Sq, Tbilisi",
+        "phone": "+995 32 345 678",
+        "website": "https://wine.ge",
+        "image": "wine.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Caucasus Agency",
+        "address": "9 Kostava St, Tbilisi",
+        "phone": "+995 32 111 222",
+        "website": "https://caucasus.ge",
+        "image": "caucasus.jpg",
+        "membership": 9
+    },
+    {
+        "name": "Tbilisi books",
+        "address": "23 Pekini Ave, Saburtalo Tbilisi",
+        "phone": "+995 33 333 333",
+        "website": "https://booksge.com",
+        "image": "books.jpg",
+        "membership": 11
+    },
+    {
+        "name": "Georgian style",
+        "address": "77 Marjanishvili St, Tbilisi",
+        "phone": "+995 33 555 666",
+        "website": "https://fashion.ge",
+        "image": "style.jpg",
+        "membership": 2
+    },
+    {
+        "name": "Tasty Bakery",
+        "address": "19 Abanotubani, Tbilisi",
+        "phone": "+995 99 999 999",
+        "website": "https://tastybakery.ge",
+        "image": "bakery.jpg",
+        "membership": 6
+    }
+]
