@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tbilisi Chamber of Commerce - Home</title>
+    <meta name="description"
+        content="Tbilisi Chamber of Commerce - Supporting local businesses and fostering economic growth in Tbilisi, Georgia.">
+    <meta name="author" content="Kuklin Aleksandr">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Tbilisi Chamber of Commerce">
+    <meta property="og:description" content="Supporting local businesses in Tbilisi, Georgia.">
+    <meta property="og:image" content="https://akmurza.github.io/wdd231/chamber/images/social-preview.jpg">
+    <meta property="og:url" content="https://akmurza.github.io/wdd231/chamber/index.html">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/small.css">
+    <link rel="stylesheet" href="../styles/larger.css">
+    
+   
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Tbilisi Chamber Logo" class="logo">
+            <h2 id="author-name">Kuklin Aleksandr</h2>
+            <button id="hamburger">☰</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/tbilisi_pic.webp" alt="Tbilisi cityscape" class="hero-image">
+            <div class="hero-content">
+                <h1>Welcome to Tbilisi Chamber of Commerce</h1>
+                <p>Empowering local businesses and fostering economic growth</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <div class="home-grid">
+            <!-- Events Section -->
+            <section class="events-section">
+                <h2>Upcoming Events</h2>
+                <div class="event-card">
+                    <h3>Business Networking Breakfast</h3>
+                    <p class="event-date">October 15, 2025 | 8:00 AM</p>
+                    <p>Connect with fellow business owners and expand your professional network.</p>
+                </div>
+                <div class="event-card">
+                    <h3>Digital Marketing Workshop</h3>
+                    <p class="event-date">October 22, 2025 | 2:00 PM</p>
+                    <p>Learn the latest strategies to grow your business online.</p>
+                </div>
+                <div class="event-card">
+                    <h3>Annual Business Awards Gala</h3>
+                    <p class="event-date">November 5, 2025 | 6:00 PM</p>
+                    <p>Celebrate excellence in Tbilisi's business community.</p>
+                </div>
+            </section>
+
+            <!-- Weather Section -->
+            <section class="weather-section">
+                <h2>Current Weather</h2>
+                <div id="current-weather" class="weather-display">
+                    <p class="loading">Loading weather data...</p>
+                </div>
+
+                <h3>3-Day Forecast</h3>
+                <div id="forecast" class="forecast-grid">
+                    <p class="loading">Loading forecast...</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Company Spotlights -->
+        <section class="spotlights-section">
+            <h2>Member Spotlights</h2>
+            <div id="spotlights-container" class="spotlights-grid">
+                <p class="loading">Loading member spotlights...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">LI</a>
+        </div>
+        <p>&copy; <span id="year"></span> Tbilisi Chamber of Commerce</p>
+        <p>Developed by Kuklin Aleksandr</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/home.js" defer></script>
+</body>
+
+</html>
