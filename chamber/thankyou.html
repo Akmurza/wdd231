@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Tbilisi Chamber of Commerce</title>
+    <meta name="description"
+        content="Thank you for submitting your membership application to Tbilisi Chamber of Commerce.">
+    <meta name="author" content="Kuklin Aleksandr">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/thankyou.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Tbilisi Chamber Logo" class="logo">
+            <h2 id="author-name">Kuklin Aleksandr</h2>
+            <button id="hamburger" aria-label="Toggle navigation">☰</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="thank-you-container">
+            <div class="success-icon"></div>
+
+            <h1>Thank You!</h1>
+
+            <p class="thank-you-message">
+                Your membership application has been successfully submitted.
+                We appreciate your interest in joining the Tbilisi Chamber of Commerce.
+                Our team will review your application and contact you within 3-5 business days.
+            </p>
+
+            <div class="application-details">
+                <h2>Application Summary</h2>
+
+                <div class="detail-row">
+                    <span class="detail-label">Full Name:</span>
+                    <span class="detail-value" id="display-name">--</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Email:</span>
+                    <span class="detail-value" id="display-email">--</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Mobile Phone:</span>
+                    <span class="detail-value" id="display-mobile">--</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Organization:</span>
+                    <span class="detail-value" id="display-organization">--</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Membership Level:</span>
+                    <span class="detail-value" id="display-membership">--</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Submission Date & Time:</span>
+                    <span class="detail-value" id="display-timestamp">--</span>
+                </div>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="index.html" class="btn btn-primary">Return to Home</a>
+                <a href="discover.html" class="btn btn-secondary">Explore More</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">LI</a>
+        </div>
+        <p>&copy; <span id="year"></span> Tbilisi Chamber of Commerce</p>
+        <p>Developed by Kuklin Aleksandr</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/thankyou.js" defer></script>
+</body>
+
+</html>
