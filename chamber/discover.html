@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Tbilisi - Tbilisi Chamber of Commerce</title>
+    <meta name="description"
+        content="Discover the best attractions, landmarks, and places of interest in Tbilisi, Georgia.">
+    <meta name="author" content="Kuklin Aleksandr">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Discover Tbilisi - Chamber of Commerce">
+    <meta property="og:description" content="Explore amazing places in Tbilisi, Georgia.">
+    <meta property="og:image" content="https://akmurza.github.io/wdd231/chamber/images/tbilisi-discover.jpg">
+    <meta property="og:url" content="https://akmurza.github.io/wdd231/chamber/discover.html">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="../styles/small.css">
+    <link rel="stylesheet" href="../styles/larger.css">
+
+  
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Tbilisi Chamber Logo" class="logo">
+            <h2 id="author-name">Kuklin Aleksandr</h2>
+            <button id="hamburger">☰</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="discover-main">
+        <!-- Visitor Message -->
+        <div class="visitor-message" id="visitorMessage"></div>
+
+        <!-- Page Title -->
+        <h1>Discover Tbilisi</h1>
+
+        <section class="discover-intro">
+            <p>Explore the rich history, vibrant culture, and stunning landmarks that make Tbilisi a unique destination
+                for business and tourism.</p>
+        </section>
+
+        <!-- Discover Grid -->
+        <div class="discover-grid" id="discoverGrid">
+            <!-- Cards will be loaded dynamically -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">LI</a>
+        </div>
+        <p>&copy; <span id="year"></span> Tbilisi Chamber of Commerce</p>
+        <p>Developed by Kuklin Aleksandr</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/discover.js"></script>
+</body>
+
+</html>

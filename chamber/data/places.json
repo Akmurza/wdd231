@@ -1,0 +1,60 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "name": "Old Tbilisi",
+            "address": "Abanotubani District, Tbilisi, Georgia",
+            "description": "Historic heart of Tbilisi featuring traditional sulfur baths, narrow cobblestone streets, and iconic wooden balconies. A UNESCO World Heritage site showcasing centuries of Georgian architecture and culture.",
+            "image": "images/old-tbilisi.webp"
+        },
+        {
+            "id": 2,
+            "name": "Narikala Fortress",
+            "address": "Sololaki District, Tbilisi, Georgia",
+            "description": "Ancient fortress overlooking Tbilisi from the Sololaki hill, dating back to the 4th century. Offers panoramic views of the city and the Mtkvari River, accessible by cable car or hiking trail.",
+            "image": "images/narikala.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Rustaveli Avenue",
+            "address": "Rustaveli Avenue, Tbilisi, Georgia",
+            "description": "Main thoroughfare of Tbilisi lined with theatres, museums, cafes, and boutiques. Home to the Georgian National Museum, Opera House, and Parliament building, perfect for shopping and culture.",
+            "image": "images/rustaveli.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Bridge of Peace",
+            "address": "Rike Park, Tbilisi, Georgia",
+            "description": "Modern pedestrian bridge across the Mtkvari River featuring stunning glass and steel architecture. Connects Old Tbilisi with the contemporary Rike Park and illuminates beautifully at night.",
+            "image": "images/peace-bridge.webp"
+        },
+        {
+            "id": 5,
+            "name": "Mtatsminda Park",
+            "address": "Mtatsminda Plateau, Tbilisi, Georgia",
+            "description": "Amusement park atop Mount Mtatsminda offering breathtaking city views, restaurants, and entertainment. Accessible via funicular railway, it's a favorite spot for families and tourists alike.",
+            "image": "images/mtatsminda.webp"
+        },
+        {
+            "id": 6,
+            "name": "Georgian National Museum",
+            "address": "3 Rustaveli Avenue, Tbilisi, Georgia",
+            "description": "Premier museum showcasing Georgia's rich history from ancient times to modern day. Features archaeological treasures, medieval manuscripts, and exhibitions on Georgian culture and natural history.",
+            "image": "images/museum.webp"
+        },
+        {
+            "id": 7,
+            "name": "Tbilisi Botanical Garden",
+            "address": "1 Botanikuri Street, Tbilisi, Georgia",
+            "description": "Lush 161-hectare garden featuring diverse flora from around the world, waterfalls, and walking paths. Located in the Tsavkisisi Gorge, it offers a peaceful escape from the city bustle.",
+            "image": "images/botanical.webp"
+        },
+        {
+            "id": 8,
+            "name": "Dry Bridge Flea Market",
+            "address": "Dry Bridge, Tbilisi, Georgia",
+            "description": "Famous open-air market selling Soviet memorabilia, antiques, artwork, and handcrafted items. A treasure trove for collectors and those seeking unique Georgian souvenirs and vintage finds.",
+            "image": "images/flea-market.webp"
+        }
+    ]
+}
