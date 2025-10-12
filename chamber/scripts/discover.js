@@ -1,5 +1,10 @@
 // Discover Page JavaScript for Tbilisi Chamber
 
+import { places } from '../data/places.mjs';
+
+
+
+
 // Load places from JSON file
 async function loadPlaces() {
     try {
@@ -127,64 +132,7 @@ function updateFooter() {
 
 // Sample data fallback (Tbilisi specific)
 function getSampleData() {
-    return [
-        {
-            id: 1,
-            name: "Old Tbilisi",
-            address: "Abanotubani District, Tbilisi, Georgia",
-            description: "Historic heart of Tbilisi featuring traditional sulfur baths, narrow cobblestone streets, and iconic wooden balconies.",
-            image: "https://images.unsplash.com/photo-1562077772-3bd90403f7f0?w=400&h=300&fit=crop"
-        },
-        {
-            id: 2,
-            name: "Narikala Fortress",
-            address: "Sololaki District, Tbilisi, Georgia",
-            description: "Ancient fortress overlooking Tbilisi from the Sololaki hill, dating back to the 4th century.",
-            image: "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=400&h=300&fit=crop"
-        },
-        {
-            id: 3,
-            name: "Rustaveli Avenue",
-            address: "Rustaveli Avenue, Tbilisi, Georgia",
-            description: "Main thoroughfare of Tbilisi lined with theatres, museums, cafes, and boutiques.",
-            image: "https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?w=400&h=300&fit=crop"
-        },
-        {
-            id: 4,
-            name: "Bridge of Peace",
-            address: "Rike Park, Tbilisi, Georgia",
-            description: "Modern pedestrian bridge across the Mtkvari River featuring stunning glass and steel architecture.",
-            image: "https://images.unsplash.com/photo-1590073844006-33d7f7f8c78a?w=400&h=300&fit=crop"
-        },
-        {
-            id: 5,
-            name: "Mtatsminda Park",
-            address: "Mtatsminda Plateau, Tbilisi, Georgia",
-            description: "Amusement park atop Mount Mtatsminda offering breathtaking city views and entertainment.",
-            image: "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?w=400&h=300&fit=crop"
-        },
-        {
-            id: 6,
-            name: "Georgian National Museum",
-            address: "3 Rustaveli Avenue, Tbilisi, Georgia",
-            description: "Premier museum showcasing Georgia's rich history from ancient times to modern day.",
-            image: "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=400&h=300&fit=crop"
-        },
-        {
-            id: 7,
-            name: "Tbilisi Botanical Garden",
-            address: "1 Botanikuri Street, Tbilisi, Georgia",
-            description: "Lush 161-hectare garden featuring diverse flora from around the world and waterfalls.",
-            image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=300&fit=crop"
-        },
-        {
-            id: 8,
-            name: "Dry Bridge Flea Market",
-            address: "Dry Bridge, Tbilisi, Georgia",
-            description: "Famous open-air market selling Soviet memorabilia, antiques, artwork, and handcrafted items.",
-            image: "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=400&h=300&fit=crop"
-        }
-    ];
+    return places;
 }
 
 // Initialize page on DOM load
