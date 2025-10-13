@@ -3,12 +3,10 @@
 import { places } from '../data/places.mjs';
 
 
-
-
 // Load places from JSON file
 async function loadPlaces() {
     try {
-        const response = await fetch('data/places.json');
+        const response = await fetch('data/places.mjs');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -47,6 +45,7 @@ function createPlaceCard(place, index) {
         </figure>
         <div class="card-content">
             <h2>${place.name}</h2>
+            <p>${place.cost}<p>
             <address>${place.address}</address>
             <p>${place.description}</p>
             <button class="learn-more-btn" data-place="${place.name}">Learn More</button>
