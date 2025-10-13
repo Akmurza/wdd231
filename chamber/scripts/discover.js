@@ -3,21 +3,16 @@
 import { places } from '../data/places.mjs';
 
 
-// Load places from JSON file
 async function loadPlaces() {
     try {
-        const response = await fetch('data/places.mjs');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        displayPlaces(data.places);
+    
+        displayPlaces(places);
     } catch (error) {
-        console.error('Error loading places:', error);
-        // Fallback to sample data if JSON fails
+        console.error('Error loading places (import):', error);
         displayPlaces(getSampleData());
     }
 }
+
 
 // Display places in the grid
 function displayPlaces(places) {
