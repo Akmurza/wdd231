@@ -8,27 +8,29 @@
     <meta name="description"
         content="Discover the best attractions, landmarks, and places of interest in Tbilisi, Georgia.">
     <meta name="author" content="Kuklin Aleksandr">
+
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <link rel="preload" as="image" href="images/narikala.webp">
+
     <meta property="og:title" content="Discover Tbilisi - Chamber of Commerce">
     <meta property="og:description" content="Explore amazing places in Tbilisi, Georgia.">
-    <meta property="og:image" content="https://akmurza.github.io/wdd231/chamber/discover.html">
+    <meta property="og:image" content="https://akmurza.github.io/wdd231/chamber/images/narikala.webp">
     <meta property="og:url" content="https://akmurza.github.io/wdd231/chamber/discover.html">
 
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/discover.css">
-    
-  
 </head>
 
 <body>
     <header>
         <div class="header-content">
-            <img src="images/logo.svg" alt="Tbilisi Chamber Logo" class="logo">
+            <img src="images/logo.svg" alt="Tbilisi Chamber Logo" class="logo" width="30" height="30">
             <h2 id="author-name">Kuklin Aleksandr</h2>
-            <button id="hamburger">☰</button>
+            <button id="hamburger" aria-label="Toggle navigation">☰</button>
         </div>
         <nav>
             <ul>
@@ -43,7 +45,6 @@
     <main class="discover-main">
         <div class="visitor-message" id="visitorMessage"></div>
 
-        
         <h1>Discover Tbilisi</h1>
 
         <section class="discover-intro">
@@ -51,9 +52,9 @@
                 for business and tourism.</p>
         </section>
 
-        <!-- Discover Grid -->
+        <!-- Grid -->
         <div class="discover-grid" id="discoverGrid">
-            <!-- cards will be loaded here-->
+            <!-- Cards will load here -->
         </div>
     </main>
 
@@ -68,6 +69,7 @@
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 
+    
     <script src="scripts/discover.js" type="module"></script>
 </body>
 
