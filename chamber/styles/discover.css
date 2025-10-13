@@ -1,6 +1,6 @@
 /* ===== DISCOVER PAGE STYLES ===== */
 
-/* Override только для discover page - не трогаем другие страницы */
+
 main.discover-main {
     display: block !important;
     grid-template-columns: none !important;
@@ -9,7 +9,7 @@ main.discover-main {
     padding: 0 1rem;
 }
 
-/* Visitor Message */
+
 .visitor-message {
     background: linear-gradient(135deg, #667eea 0%, brown 100%);
     color: white;
@@ -35,12 +35,12 @@ main.discover-main {
     }
 }
 
-/* Discover page title */
+
 .discover-main h1 {
     grid-column: initial !important;
 }
 
-/* Discover Intro */
+
 .discover-intro {
     text-align: center;
     margin-bottom: 3rem;
@@ -55,7 +55,7 @@ main.discover-main {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-/* Discover Grid - Mobile First (320px - 640px) */
+
 .discover-grid {
     display: grid !important;
     gap: 2rem;
@@ -72,7 +72,6 @@ main.discover-main {
         "card8";
 }
 
-/* Grid areas для каждой карточки */
 .discover-card:nth-child(1) {
     grid-area: card1;
 }
@@ -105,7 +104,7 @@ main.discover-main {
     grid-area: card8;
 }
 
-/* Discover Card - используем ваш стиль .card */
+
 .discover-card {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -134,7 +133,7 @@ main.discover-main {
     display: block;
 }
 
-/* НЕТ hover эффектов на мобильных */
+
 @media (max-width: 640px) {
     .discover-card img {
         transition: none !important;
@@ -193,7 +192,6 @@ main.discover-main {
     transform: translateY(0);
 }
 
-/* Medium Screens (641px - 1024px) - Tablet */
 @media (min-width: 641px) {
     .discover-grid {
         grid-template-columns: repeat(2, 1fr) !important;
@@ -208,7 +206,7 @@ main.discover-main {
         font-size: 1.2rem;
     }
 
-    /* Hover эффекты начинаются с планшетов */
+
     .discover-card figure {
         position: relative;
     }
@@ -232,7 +230,7 @@ main.discover-main {
         background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(165, 42, 42, 0.2));
         opacity: 0;
         transition: opacity 0.4s ease;
-        pointer-events: none;
+     
     }
 
     .discover-card:hover figure::after {
@@ -240,7 +238,6 @@ main.discover-main {
     }
 }
 
-/* Large Screens (1025px and above) - Desktop */
 @media (min-width: 1025px) {
     main.discover-main {
         padding: 0 2rem;
@@ -275,7 +272,7 @@ main.discover-main {
     }
 }
 
-/* Extra Large Screens */
+
 @media (min-width: 1400px) {
     main.discover-main {
         max-width: 1400px;
@@ -298,7 +295,7 @@ main.discover-main {
 
 
 /* ===== COMMON STYLES (если нужно, можно сюда добавить общие стили) ===== */
-/* Normalize CSS */
+
 * {
     margin: 0;
     padding: 0;
