@@ -14,7 +14,6 @@ async function fetchResources() {
         const data = await response.json();
         allResources = data.resources;
 
-        console.log(`Fetched ${allResources.length} resources successfully`);
         displayResources(allResources);
         updateResourceCount(allResources.length);
 
