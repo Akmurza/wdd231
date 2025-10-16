@@ -112,7 +112,7 @@ header {
     border: none;
     color: var(--white);
     font-size: 1.8rem;
-    cursor: pointer;
+    cursor: url('/final/images/file_1.png') 50 50, pointer;
     padding: 0.5rem;
 }
 
@@ -152,7 +152,7 @@ nav a.active {
 .hero::before {
     content: '🐋';
     position: absolute;
-    font-size: 20rem;
+    font-size: 25rem;
     opacity: 0.1;
     top: 50%;
     left: 50%;
@@ -244,7 +244,7 @@ nav a.active {
     color: var(--abyssal-blue);
 }
 
-/* ===== PATHWAYS GRID ===== */
+/* ===== PATHWAY'S GRID ===== */
 .pathways-section {
     padding: 4rem 0;
     background: var(--cream);
@@ -298,7 +298,7 @@ nav a.active {
     border-left: 5px solid var(--warm-amber);
 }
 
-/* ===== DARK SECTION ===== */
+/* ================= DARK SEC ======================== */
 .dark-section {
     background: linear-gradient(135deg, var(--abyssal-blue) 0%, #001233 100%);
     color: var(--white);
@@ -326,9 +326,9 @@ nav a.active {
 }
 
 .masking-item .icon {
-    font-size: 2.5rem;
+    font-size: 5rem;
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* ===== BURNOUT WARNING ===== */
