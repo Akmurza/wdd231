@@ -1,4 +1,4 @@
-/* ===== VARIABLES ===== */
+/* ==================== MAIN PROJECT COLORS AS VARIABLES ================= */
 :root {
     --abyssal-blue: #0A2463;
     --deep-teal: #1B5E6E;
@@ -8,7 +8,7 @@
     --white: #FFFFFF;
 }
 
-/* ===== RESET & BASE ===== */
+/* ===== RESET & BASE ============= */
 * {
     margin: 0;
     padding: 0;
