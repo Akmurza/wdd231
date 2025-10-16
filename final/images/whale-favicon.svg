@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#0A2463"/>
+  
+  <!-- Whale body -->
+  <ellipse cx="50" cy="55" rx="30" ry="15" fill="#1B5E6E"/>
+  
+  <!-- Whale tail -->
+  <path d="M 20 55 Q 15 50, 18 45 Q 20 50, 20 55" fill="#1B5E6E"/>
+  
+  <!-- Whale fin -->
+  <path d="M 50 70 L 45 75 L 50 75 Z" fill="#1B5E6E"/>
+  
+  <!-- Eye -->
+  <circle cx="60" cy="50" r="3" fill="#F7F4EF"/>
+  
+  <!-- Water spray -->
+  <path d="M 65 40 Q 67 35, 65 30" stroke="#D4A574" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 70 38 Q 72 33, 70 28" stroke="#D4A574" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
