@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Unmasked</title>
+    <meta name="description"
+        content="Comprehensive resources for autistic adults: books, communities, tools, and support for your unmasking journey.">
+    <meta name="author" content="Kuklin Aleksandr">
+
+    <meta property="og:title" content="Autism Resources & Community">
+    <meta property="og:description"
+        content="Curated resources for autistic adults navigating late diagnosis and unmasking.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🐋</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <span class="whale-icon">🐋</span>
+                <span class="site-name">Unmasked</span>
+            </div>
+            <button id="hamburger" aria-label="Toggle navigation">☰</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="journey.html">Your Journey</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Resources & Community</h1>
+                <p class="subtitle">Following the whale through the depths</p>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="container">
+                <h2>Find Your Guide</h2>
+                <p>Explore curated resources for different aspects of your journey</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Resources</button>
+                    <button class="filter-btn" data-category="books">📚 Books</button>
+                    <button class="filter-btn" data-category="communities">👥 Communities</button>
+                    <button class="filter-btn" data-category="tools">🛠️ Tools</button>
+                    <button class="filter-btn" data-category="professionals">🩺 Professionals</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Grid -->
+        <section class="resources-section">
+            <div class="container">
+                <div id="resources-container" class="resources-grid">
+                    <p class="loading">Loading resources...</p>
+                </div>
+                <p id="resource-count" class="resource-count"></p>
+            </div>
+        </section>
+
+        <!-- Community Stories -->
+        <section class="stories-section">
+            <div class="container">
+                <h2>Voices from the Depths</h2>
+                <p class="lead">Real experiences from autistic adults who removed their scuba gear</p>
+
+                <div class="stories-grid">
+                    <div class="story-card">
+                        <div class="story-header">
+                            <span class="story-avatar">🌊</span>
+                            <div>
+                                <h3>Sarah, 34</h3>
+                                <p class="story-tag">Diagnosed at 32</p>
+                            </div>
+                        </div>
+                        <p class="story-text">"I spent 30 years thinking I was broken. The diagnosis didn't fix me - it
+                            showed me I was never broken at all. I just needed different water."</p>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="story-header">
+                            <span class="story-avatar">🐋</span>
+                            <div>
+                                <h3>Marcus, 45</h3>
+                                <p class="story-tag">Self-identified at 43</p>
+                            </div>
+                        </div>
+                        <p class="story-text">"Understanding I'm autistic explained my entire life. The exhaustion, the
+                            scripts, the mask. I'm learning to dive without the gear, and it's terrifying and
+                            liberating."</p>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="story-header">
+                            <span class="story-avatar">💙</span>
+                            <div>
+                                <h3>Emma, 28</h3>
+                                <p class="story-tag">Diagnosed at 26</p>
+                            </div>
+                        </div>
+                        <p class="story-text">"Burnout forced me to drop the mask. I couldn't maintain it anymore.
+                            Recovery meant accepting I never needed to wear it in the first place."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Contact -->
+        <section class="contact-section">
+            <div class="container">
+                <h2>Need Personalized Guidance?</h2>
+                <p>Connect with the community or share your journey</p>
+                <button id="contact-modal-btn" class="primary-btn">Get in Touch</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2>Share Your Journey</h2>
+
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name (optional)</label>
+                    <input type="text" id="name" name="name" placeholder="Or remain anonymous">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="journey-stage">Where are you in your journey? *</label>
+                    <select id="journey-stage" name="journey-stage" required>
+                        <option value="">Select...</option>
+                        <option value="questioning">Questioning if I'm autistic</option>
+                        <option value="recently-diagnosed">Recently diagnosed</option>
+                        <option value="late-diagnosis">Late diagnosis (30+)</option>
+                        <option value="unmasking">Working on unmasking</option>
+                        <option value="burnout">Experiencing burnout</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message *</label>
+                    <textarea id="message" name="message" rows="5" required
+                        placeholder="Share your story, ask questions, or just say hi..."></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Send me updates about new resources</label>
+                </div>
+
+                <button type="submit" class="primary-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="whale-icon">🐋</span>
+                <span>Unmasked</span>
+            </div>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="journey.html">Journey</a>
+                <a href="resources.html">Resources</a>
+            </nav>
+            <div class="footer-info">
+                <p>&copy; <span id="currentYear"></span> Unmasked | Kuklin Aleksandr</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+                <p><a href="#" id="video-link">📹 Project Demo Video</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/resources.js" type="module"></script>
+</body>
+
+</html>

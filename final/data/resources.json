@@ -1,0 +1,184 @@
+{
+    "resources": [
+        {
+            "id": 1,
+            "title": "Unmasking Autism",
+            "category": "books",
+            "type": "Book",
+            "author": "Dr. Devon Price",
+            "description": "A comprehensive guide to understanding masking and the autistic experience, especially for late-diagnosed adults.",
+            "url": "https://example.com/unmasking-autism"
+        },
+        {
+            "id": 2,
+            "title": "NeuroClastic",
+            "category": "communities",
+            "type": "Online Community",
+            "author": "Multiple Autistic Contributors",
+            "description": "A platform by and for autistic individuals, featuring articles, personal stories, and community support.",
+            "url": "https://neuroclastic.com"
+        },
+        {
+            "id": 3,
+            "title": "The Autistic Self-Assessment",
+            "category": "tools",
+            "type": "Assessment Tool",
+            "author": "Embrace Autism",
+            "description": "Comprehensive self-assessment tools for adults suspecting they might be autistic, with detailed explanations.",
+            "url": "https://embrace-autism.com"
+        },
+        {
+            "id": 4,
+            "title": "Divergent Mind",
+            "category": "books",
+            "type": "Book",
+            "author": "Jenara Nerenberg",
+            "description": "Explores how neurodivergent women are redefining what it means to be 'normal' and thriving authentically.",
+            "url": "https://example.com/divergent-mind"
+        },
+        {
+            "id": 5,
+            "title": "Autistic Women & Nonbinary Network",
+            "category": "communities",
+            "type": "Support Network",
+            "author": "AWN Community",
+            "description": "Support and resources specifically for autistic women and nonbinary individuals, including late diagnosis support.",
+            "url": "https://awnnetwork.org"
+        },
+        {
+            "id": 6,
+            "title": "Sensory-Friendly Products Database",
+            "category": "tools",
+            "type": "Resource Database",
+            "author": "Autistic Community",
+            "description": "Curated list of sensory-friendly clothing, noise-canceling headphones, stim toys, and accommodations.",
+            "url": "https://example.com/sensory-products"
+        },
+        {
+            "id": 7,
+            "title": "Autism in Adulthood Journal",
+            "category": "professionals",
+            "type": "Academic Journal",
+            "author": "Mary Ann Liebert, Inc.",
+            "description": "Peer-reviewed research focusing specifically on autism in adults, including diagnosis and support.",
+            "url": "https://example.com/autism-adulthood"
+        },
+        {
+            "id": 8,
+            "title": "Drama Queen",
+            "category": "books",
+            "type": "Memoir",
+            "author": "Sara Gibbs",
+            "description": "A powerful memoir about receiving an autism diagnosis at 30 and unlearning decades of masking.",
+            "url": "https://example.com/drama-queen"
+        },
+        {
+            "id": 9,
+            "title": "r/AutismInWomen",
+            "category": "communities",
+            "type": "Reddit Community",
+            "author": "Reddit Community",
+            "description": "Active Reddit community for autistic women and those questioning, with daily support and shared experiences.",
+            "url": "https://reddit.com/r/AutismInWomen"
+        },
+        {
+            "id": 10,
+            "title": "Spoon Theory Tracker App",
+            "category": "tools",
+            "type": "Mobile App",
+            "author": "Various Developers",
+            "description": "Apps for tracking energy levels (spoons) to manage autistic burnout and pace yourself sustainably.",
+            "url": "https://example.com/spoon-tracker"
+        },
+        {
+            "id": 11,
+            "title": "AANE - Autistic Adults Support",
+            "category": "professionals",
+            "type": "Professional Organization",
+            "author": "AANE Team",
+            "description": "Provides support groups, coaching, and resources specifically for autistic adults and late-diagnosed individuals.",
+            "url": "https://aane.org"
+        },
+        {
+            "id": 12,
+            "title": "Loud Hands: Autistic People Speaking",
+            "category": "books",
+            "type": "Anthology",
+            "author": "Julia Bascom (Editor)",
+            "description": "Collection of essays by autistic writers about identity, advocacy, and living authentically autistic.",
+            "url": "https://example.com/loud-hands"
+        },
+        {
+            "id": 13,
+            "title": "Autistic Adults Connection Group",
+            "category": "communities",
+            "type": "Support Group Network",
+            "author": "Local Chapters",
+            "description": "In-person and virtual support groups for autistic adults, organized by region and special interests.",
+            "url": "https://example.com/autistic-connections"
+        },
+        {
+            "id": 14,
+            "title": "AAC Communication Apps",
+            "category": "tools",
+            "type": "Communication Tools",
+            "author": "Various Developers",
+            "description": "Augmentative and Alternative Communication apps for non-speaking or situationally non-verbal autistic adults.",
+            "url": "https://example.com/aac-apps"
+        },
+        {
+            "id": 15,
+            "title": "Directory of Autism-Affirming Therapists",
+            "category": "professionals",
+            "type": "Professional Directory",
+            "author": "Therapist Collective",
+            "description": "Vetted directory of therapists who practice neurodiversity-affirming approaches, not ABA or conversion therapy.",
+            "url": "https://example.com/affirming-therapists"
+        },
+        {
+            "id": 16,
+            "title": "I Think I Might Be Autistic",
+            "category": "books",
+            "type": "Self-Help Guide",
+            "author": "Cynthia Kim",
+            "description": "Practical guide for adults who suspect they might be autistic, covering self-assessment and next steps.",
+            "url": "https://example.com/might-be-autistic"
+        },
+        {
+            "id": 17,
+            "title": "Autistic Burnout Recovery Workbook",
+            "category": "tools",
+            "type": "Workbook",
+            "author": "Kieran Rose",
+            "description": "Structured workbook for recognizing, understanding, and recovering from autistic burnout.",
+            "url": "https://example.com/burnout-workbook"
+        },
+        {
+            "id": 18,
+            "title": "The Autism Spectrum Discord",
+            "category": "communities",
+            "type": "Online Community",
+            "author": "Discord Community",
+            "description": "Active Discord server for autistic adults to connect, share experiences, and support each other daily.",
+            "url": "https://example.com/autism-discord"
+        },
+        {
+            "id": 19,
+            "title": "Workplace Accommodation Request Templates",
+            "category": "tools",
+            "type": "Document Templates",
+            "author": "Disability Rights Advocates",
+            "description": "Pre-written templates for requesting autism-related accommodations at work, with legal guidance.",
+            "url": "https://example.com/accommodation-templates"
+        },
+        {
+            "id": 20,
+            "title": "Autistic Coaching Services",
+            "category": "professionals",
+            "type": "Coaching Services",
+            "author": "Autistic Coaches",
+            "description": "Life coaching by autistic coaches for autistic adults, focusing on unmasking and authentic living.",
+            "url": "https://example.com/autistic-coaching"
+        }
+    ]
+}

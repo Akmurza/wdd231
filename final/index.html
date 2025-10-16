@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unmasked - Leave Your Scuba Gear on the Shore</title>
+    <meta name="description"
+        content="A compassionate guide for autistic adults discovering their authentic selves. Dive deep into self-discovery without the weight of masking.">
+    <meta name="author" content="Kuklin Aleksandr">
+
+    <meta property="og:title" content="Unmasked - Autistic Adult Self-Discovery">
+    <meta property="og:description"
+        content="Leave your scuba gear on the shore and dive into authentic neurodivergent identity.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akmurza.github.io/wdd231/final/">
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🐋</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <span class="whale-icon">🐋</span>
+                <span class="site-name">Unmasked</span>
+            </div>
+            <button id="hamburger" aria-label="Toggle navigation">☰</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="journey.html">Your Journey</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Leave Your Scuba Gear on the Shore</h1>
+                <p class="tagline">Dive into your authentic self without the weight of masking</p>
+                <a href="journey.html" class="cta-button">Begin Your Dive</a>
+            </div>
+        </section>
+
+        <!-- Introduction -->
+        <section class="intro-section">
+            <div class="container">
+                <h2>Welcome to the Depths</h2>
+                <p class="intro-text">For decades, you've been diving with heavy scuba gear - masks to hide your
+                    expressions, tanks to regulate your breath, weights to keep you grounded in a world not designed for
+                    you. But what if you could leave all that equipment on the shore?</p>
+                <p class="intro-text">Unmasked is a guide for autistic adults discovering their authentic selves,
+                    especially those who received late diagnoses or are just beginning to recognize their
+                    neurodivergence. Here, the whale guides you through the abyssal depths of self-discovery, helping
+                    you navigate the maze of identity without the exhausting burden of masking.</p>
+            </div>
+        </section>
+
+        <!-- Three Pathways -->
+        <section class="pathways-section">
+            <div class="container">
+                <h2>Choose Your Path</h2>
+                <div class="pathways-grid">
+                    <div class="pathway-card">
+                        <div class="pathway-icon">🌊</div>
+                        <h3>Removing the Gear</h3>
+                        <p>You've just been diagnosed, or you're finally recognizing the weight you've carried. Learn
+                            how to gradually shed the protective equipment and trust your natural way of being.</p>
+                        <a href="journey.html" class="pathway-link">Explore Your Journey →</a>
+                    </div>
+
+                    <div class="pathway-card">
+                        <div class="pathway-icon">🐋</div>
+                        <h3>Following the Whale</h3>
+                        <p>The whale doesn't demand you change - it guides you to depths where you can finally be
+                            yourself. Discover resources, strategies, and community support.</p>
+                        <a href="resources.html" class="pathway-link">Find Resources →</a>
+                    </div>
+
+                    <div class="pathway-card">
+                        <div class="pathway-icon">💙</div>
+                        <h3>Navigating the Maze</h3>
+                        <p>Self-discovery is a complex labyrinth. Understand masking, burnout, and the journey from
+                            performing neurotypical to living authentically autistic.</p>
+                        <a href="journey.html#understanding" class="pathway-link">Understand Masking →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="quote-section">
+            <div class="container">
+                <blockquote>
+                    <p>"In the deepest ocean, where light cannot reach, creatures create their own glow. You too can
+                        shine in your authentic depths."</p>
+                    <cite>— The Abyssal Truth</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="final-cta">
+            <div class="container">
+                <h2>Ready to Dive?</h2>
+                <p>The ocean doesn't ask you to wear gear. It simply is. And so are you.</p>
+                <div class="cta-buttons">
+                    <a href="journey.html" class="primary-btn">Start Your Journey</a>
+                    <a href="resources.html" class="secondary-btn">Explore Resources</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Last Visit Tracker -->
+        <section class="visit-tracker">
+            <div class="container">
+                <p id="last-visit-message"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="whale-icon">🐋</span>
+                <span>Unmasked</span>
+            </div>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="journey.html">Journey</a>
+                <a href="resources.html">Resources</a>
+            </nav>
+            <div class="footer-info">
+                <p>&copy; <span id="currentYear"></span> Unmasked | Kuklin Aleksandr</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+                <p><a href="https://youtu.be/SWKlfdmZd50" id="video-link"> Project Demo Video</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js" type="module"></script>
+</body>
+
+</html>
